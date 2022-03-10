@@ -35,7 +35,7 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
       - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@4.2.5
+        uses: JamesIves/github-pages-deploy-action@4.0.0
         with: 
           branch: pages
           folder: dist
